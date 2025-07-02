@@ -10,13 +10,13 @@ The analysis is based on 10 selected stocks from the BIST 30 index between 2020 
    Using the Markowitz Mean-Variance model to build a portfolio based on historical returns.
 
 2. LSTM-Based Price Forecasting  
-   Forecasting the next 30 days of stock prices using a **single LSTM model trained on all stocks simultaneously**. Instead of building a separate model for each stock, all stock price sequences were combined into one training set, enabling a more general and lightweight forecasting approach.
+   Forecasting the next 30 days of stock prices using a single LSTM model trained on all stocks simultaneously. Instead of building a separate model for each stock, all stock price sequences were combined into one training set, enabling a more general and lightweight forecasting approach.
 
-3. Traditional & LSTM Portfolio Comparison
+3. Traditional & LSTM Portfolio Comparison   
    Using the previous LSTM-predicted returns to create a forward-looking portfolio and comparing it against the first classical one.
 
-Technologies Used in Building the Project
--Python
+Technologies Used in Building the Project :
++ Python
 
 All the main packages used in the project : 
 - TensorFlow / Keras (LSTM model)
@@ -25,9 +25,9 @@ All the main packages used in the project :
 - yfinance (data extraction)
 - pandas / matplotlib / numpy
 
-Methods Used
--Exploratory Data Analysis (EDA)
--Classical Portfolio Optimization (Markowitz Model)
--LSTM
--Evaluation Metrics
+Methods Used :
+- Exploratory Data Analysis (EDA)
+- Classical Portfolio Optimization (Markowitz Model)
+- LSTM
+- Evaluation Metrics
 
