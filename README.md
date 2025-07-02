@@ -38,4 +38,4 @@ You’ll notice the Markowitz model showed some absurdly high 100–140% annual 
 In contrast, our LSTM-driven forecast shows the annual return at around 13%, offering a more tempered, forward-looking view. 
 
 Key takeaway:  
-> Historical spikes can look amazing on paper—but they don’t guarantee future gains. Machine-learning forecasts, even if imperfect, can help calibrate the expectations for a more realistic strategy.
+Historical spikes can look amazing on paper—but they don’t guarantee future gains. Machine-learning forecasts, even if imperfect, can help calibrate the expectations for a more realistic strategy.
